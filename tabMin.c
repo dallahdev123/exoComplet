@@ -17,13 +17,6 @@ int min(int tab1[]){
                 k=j;// Repérer l'indice du nouveau minimum
 
             }
-            /*if (min != tab1[i])//Tester si le minimum a changer
-            {
-                //Permutation
-                t=tab1[i];
-                tab1[i]=tab1[k];
-                tab1[k]=t;
-            }*/
             
         }
         
