@@ -17,19 +17,19 @@ int min(int tab1[]){
                 k=j;// Repérer l'indice du nouveau minimum
 
             }
-            if (min != tab1[i])//Tester si le minimum a changer
+            /*if (min != tab1[i])//Tester si le minimum a changer
             {
-                /* code */
                 //Permutation
                 t=tab1[i];
                 tab1[i]=tab1[k];
                 tab1[k]=t;
-            }
+            }*/
             
         }
         
     }
-    printf("Le minimum est:%d",tab1[0]);
+    printf("Le minimum est de:%d\n",tab1[k]);
+    printf("L'indice du minimum est de:%d\n",k);
         printf("\n");
 
     return 0;
