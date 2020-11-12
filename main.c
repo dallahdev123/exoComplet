@@ -4,14 +4,14 @@
 
 int main(){
     
-    int tab1[4];
+    float tab1[5];
     int i;
 
     for (i = 0; i <4; i++)
     {
         /* code */
-        printf("Donner tableau[%d]: ",i);
-        scanf("%d",&tab1[i]);
+        printf("Donner tableau[%i]: ",i);
+        scanf("%f",&tab1[i]);
     }
     
     min(tab1);

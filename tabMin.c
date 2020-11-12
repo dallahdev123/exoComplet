@@ -1,10 +1,9 @@
 //Trie Croissant d'un tableau
 #include<stdio.h>
-#include<stdlib.h>
 
-int min(int tab1[]){
+int min(float tab1[]){
     int i,j,k,l,t;
-    int min;
+    float min;
 
     for(i = 0; i<=3; i++)//1er Parcours
     {
@@ -16,12 +15,17 @@ int min(int tab1[]){
                 min=tab1[j];//Changemant de minimum
                 k=j;// Repérer l'indice du nouveau minimum
 
+            }else
+            {
+                min=tab1[i];
+                k=i;
             }
+            
             
         }
         
     }
-    printf("Le minimum est de:%d\n",tab1[k]);
+    printf("Le minimum est de:%f\n",tab1[k]);
     printf("L'indice du minimum est de:%d\n",k);
         printf("\n");
 

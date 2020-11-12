@@ -1,1 +1,1 @@
-int min(int tab1[]);
+int min(float tab1[]);
